@@ -6,8 +6,8 @@ const findSum = function(array) {
 };
 
 const findFrequency = function(array) {
-   letter.sort()
-  return {most: letter.shift(), least: letter.pop()}
+   array.sort()
+  return {most: array.shift(), least: array.pop()}
 };
 
 const isPalindrome = function(str) {

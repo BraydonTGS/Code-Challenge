@@ -15,19 +15,19 @@ const findFrequency = function(array) {
     for (let y = 0; y < array.length; y++) {
       if (array[i] === array[y])
         max++;
-      console.log(max, `Adding To Max for Letter ${array[i]}`)
+      //console.log(max, `Adding To Max for Letter ${array[i]}`)
     }
     if (mostF < max) {
       mostF = max
-      console.log(mostF, 'Most Frequent')
+      //console.log(mostF, 'Most Frequent')
       letterMF = array[i]
-      console.log(letterMF, 'Most Freq letter')
+      //console.log(letterMF, 'Most Freq letter')
     } 
     if (max < lastCount) {
       lastCount = max
-      console.log(lastCount, 'Last Count')
+      //console.log(lastCount, 'Last Count')
       letterLF = array[i]
-      console.log(letterLF, 'least freq letter')
+      //console.log(letterLF, 'least freq letter')
 
     }
 
